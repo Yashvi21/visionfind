@@ -1,0 +1,12 @@
+{
+  "videos": [
+    {
+      "path": "/path/to/your/meeting.mp4",
+      "queries": [
+        { "query": "a person writing on a whiteboard", "relevant": [[62.0, 95.0]] },
+        { "query": "a slide with a bar chart", "relevant": [[130.0, 148.0], [301.0, 315.0]] },
+        { "query": "people sitting around a table", "relevant": [[0.0, 20.0]] }
+      ]
+    }
+  ]
+}

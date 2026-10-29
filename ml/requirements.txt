@@ -1,0 +1,21 @@
+# Web service
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+sqlalchemy>=2.0
+
+# Video / ML
+opencv-python>=4.10
+# Frame-accurate decoding/seeking (also required by faster-whisper). Approved by the project owner.
+av>=13
+numpy>=1.26,<3
+pillow>=10.0
+torch>=2.3
+open_clip_torch>=2.26
+faiss-cpu>=1.8
+faster-whisper>=1.0
+sentence-transformers>=3.0
+
+# Tests
+pytest>=8.0
+httpx>=0.27
